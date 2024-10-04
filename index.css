@@ -1,0 +1,374 @@
+*{
+
+
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+
+
+
+
+
+body{
+
+    background-color:whitesmoke;
+}
+
+.container{
+    flex-direction: column;
+transform: translateX(1.5rem);
+    margin-top: 2rem;
+
+background-color: whitesmoke;
+width: 99%;
+height:20rem;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+
+}
+
+
+.rectangle{
+
+background:wheat;
+width: 18rem;
+height:13rem;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+
+.gray, .squer {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 1rem;
+   
+}
+
+
+.gray{
+    background-color: #69696970;
+    width: 9rem;
+    height: 9rem;
+    perspective: 100px; 
+
+    
+
+}
+
+.squer{
+background-color: #410ef770;
+width: 9rem;
+height: 9rem;
+transition: transform   0.5s  ease;
+
+}
+
+
+.squer:hover{
+  
+        background-color: #0000ff63;
+    }
+    
+
+
+
+.squer-1:hover{
+transform: rotate(45deg);
+    background-color: #0000ff63;
+  
+}
+
+
+.squer-2:hover{
+transform: scaleY(0.5);
+    
+}
+
+
+
+
+.squer-3:hover{
+    transform: scaleX(0.5);
+    background-color: #0000ff63;
+}
+
+
+.squer-4:hover{
+    transform: scale(2);
+    background-color: #0000ff63;
+}
+
+
+
+
+.squer-5:hover{
+    transform: scaleX(2);
+    background-color: #0000ff63;
+}
+
+
+
+
+.squer-6:hover{
+    transform: scaley(2);
+    background-color: #0000ff63;
+}
+
+
+
+
+.squer-7:hover{
+    transform: Skewx(45deg);
+    background-color: #0000ff63;
+}
+
+
+
+.squer-8:hover{
+    transform: Skewy(45deg);
+    background-color: #0000ff63;
+}
+
+
+.squer-9:hover{
+    transform: translate(3rem ,3rem);
+    
+}
+
+
+
+.squer-10:hover{
+    transform: translateX(4rem);
+    background-color: #0000ff63;
+}
+
+
+
+.squer-11:hover{
+    transform: translatey(4rem);
+    background-color: #0000ff63;
+}
+
+
+
+.squer-12:hover{
+    transform: Skewy(60deg);
+    background-color: #0000ff63;
+}
+
+
+
+.squer-13:hover{
+    transform:rotateX(60deg);
+    background-color: #0000ff63;
+}
+
+
+
+.squer-14:hover{
+    transform:rotatey(60deg);
+    background-color: #0000ff63;
+}
+
+
+
+.squer-15{
+
+    transform-origin: 100% 0;
+}
+
+
+
+.squer-15:hover{
+    transform: rotate(45deg);
+    background-color: #0000ff63;
+}
+
+
+.squer-16{
+
+    transform-origin:  0 100% ;
+}
+
+
+
+.squer-16:hover{
+    transform: rotate(45deg);
+    background-color: #0000ff63;
+}
+
+
+.squer-17{
+
+    transform-origin:  100% 100% ;
+}
+
+
+
+
+.squer-17:hover{
+    transform:  rotateX(20deg); 
+    background-color: #0000ff63;
+}
+
+
+
+.squer-18{
+
+    transform-origin: 0% 0% ;
+}
+
+
+
+
+
+.squer-18:hover{
+    transform:  rotateX(20deg); 
+    background-color: #0000ff63;
+}
+
+
+.squer-19{
+
+
+    transform-origin: 0 50% ;
+}
+
+
+
+.squer-19:hover{
+
+transform:  rotateY(20deg); 
+    background-color: #0000ff63;
+}
+
+
+
+
+.squer-20{
+
+
+    transform-origin:  right center;
+}
+
+
+
+
+.squer-20:hover{
+    transform:  rotateY(10deg); 
+    background-color: #0000ff63;
+}
+
+
+
+
+.squer-21{
+
+
+    z-index: 1000;
+
+    transform-origin: 100% 0 ;
+
+}
+
+
+
+
+
+.squer-21:hover{
+    transform: scale(1.5);
+    background-color: #0000ff63;
+    z-index: 1000;
+}
+
+
+
+.squer-22{
+
+
+    transform-origin: 0  100% ;
+}
+
+
+
+
+.squer-22:hover{
+    transform: scale(2);
+    background-color: #0000ff63;
+}
+
+
+
+
+
+
+.squer-23{
+
+
+    transform-origin: right ;
+}
+
+
+
+
+
+.squer-23:hover{
+    transform: scaleX(2);
+    background-color: #0000ff63;
+}
+
+.squer-24{
+
+
+    transform-origin: left ;
+}
+
+
+
+
+
+.squer-24:hover{
+    transform: scaleX(2);
+
+
+    background-color: #0000ff63;
+}
+
+.squer-25{
+
+
+    transform-origin: top ;
+}
+
+.squer-25:hover{
+    transform: scaleY(1.5);
+    background-color: #0000ff63;
+}
+
+.squer-26{
+
+
+    transform-origin: bottom ;
+}
+
+
+
+
+
+.squer-26:hover{
+    transform: scaleY(2);
+    background-color: #0000ff63;
+}
